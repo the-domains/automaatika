@@ -1,28 +1,40 @@
-name: Automaatika
-favicon: null
-layout_spectrum: 0.038988346233963966
-typography_spectrum: 0.5271683286409825
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.7510638
+  lightness: 0.6234043
+  brandStrength: 0.287234
   brandColors:
     - '#fffdff'
     - '#140c0a'
     - '#d1928d'
     - '#74413e'
     - '#e76118'
-  brandStrength: 0.1875
-  lightness: 0.5
-  saturation: 0.375
   rhythmicContrast: 0.75
-purpose: []
+typography_spectrum: 0.5297872
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 1
+favicon: null
+name: Automaatika
